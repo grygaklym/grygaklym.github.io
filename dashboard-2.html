@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunrise</title>
+    <link rel="shortcut icon" href="img/index/favicon.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style jquery-ui -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/dashboard-style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-3 col-xl-2">
+                    <aside class="left-menu">
+                        <div class="box-logo">
+                            <a href="#" class="logo">
+                                <img src="img/index/logo.png" alt="Sunrise">
+                                <p>Sunrise<br> English School</p>
+                            </a>
+                        </div>
+                        <div class="btn-menu">
+                            <img src="img/icons/btn-menu.svg" alt="">
+                        </div>
+                        <ul class="menu">
+                            <li><a href="#">Level 0a</a></li>
+                            <li><a href="#">Level 0b</a></li>
+                            <li><a href="#">Level 0c</a></li>
+                            <li><a href="#">Level 1</a></li>
+                            <li><a href="#">Level 2</a></li>
+                            <li><a href="#">Level 3</a></li>
+                            <li><a href="#">Level 4</a></li>
+                            <li><a href="#">Level 5</a></li>
+                            <li><a href="#">Level 6</a></li>
+                            <li><a href="#">Club 1</a></li>
+                            <li><a href="#">Club 2</a></li>
+                            <li><a href="#">Club 3</a></li>
+                            <li><a href="#">Cambridge</a></li>
+                        </ul>
+                    </aside>
+                </div>
+
+                <div class="col-12 col-md-9 col-xl-10">
+                    <div class="row no-gutters box-shadow__top">
+                        <div class="col-2">
+                            <div class="wrap-setup d-flex">
+                                <a href="#" class="icon-box">
+                                    <img src="img/icons/user.svg" alt="">
+                                </a>
+                                <span class="mob-hide">Додати<br> профіль</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="wrap-setup d-flex">
+                                <a href="#" class="icon-box">
+                                    <img src="img/icons/group-user.svg" alt="">
+                                </a>
+                                <span class="mob-hide">Додати<br> групу</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="wrap-setup d-flex">
+                                <div class="icon-box">
+                                    <img src="img/icons/printer.svg" alt="">
+                                </div>
+                                <span class="mob-hide">Друк</span>
+                                <div class="show-printer">
+                                    <div class="printer">
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Ім’я
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Ім’я латиницею
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Дата народження
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Вік
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Адрес
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Навчальний заклад
+                                    </label>
+                                    <label class="label-checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        Телефон
+                                    </label>
+                                    <div class="button-main">
+                                         <button type="button" class="btn-printer">Розпочати друк</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="wrap-setup d-flex">
+                                <div class="icon-box">
+                                    <img src="img/icons/save-pdf.svg" alt="">
+                                </div>
+                                <span class="mob-hide">Зберегти<br> як PDF</span>
+                                <div class="show-printer">
+                                        <div class="printer">
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Ім’я
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Ім’я латиницею
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Дата народження
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Вік
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Адрес
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Навчальний заклад
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Телефон
+                                        </label>
+                                        <div class="button-main">
+                                             <button type="button" class="btn-printer">Розпочати друк</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-2 col-md-3">
+                            <div class="wrap-setup d-flex">
+                                <a href="#" class="icon-box">
+                                    <img src="img/icons/setup.svg" alt="">
+                                </a>
+                                <span class="mob-hide">Налаштування</span>
+                            </div>
+                        </div>
+                        <div class="col-2 col-md-1">
+                            <div class="wrap-setup__sort d-flex">
+                                <div class="icon-sort">
+                                    <img src="img/icons/sort.svg" alt="">
+                                </div>
+                                <div class="sort-box">
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Ім’я
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Ім’я латиницею
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Дата народження
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Вік
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Адрес
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Навчальний заклад
+                                        </label>
+                                        <label class="label-checkbox">
+                                            <input type="radio" name="sort">
+                                            <span class="checkmark"></span>
+                                            Телефон
+                                        </label>
+                                        <div class="button-main">
+                                             <button type="button" class="btn-printer">Готово</button>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <div class="wrapper-table">
+                                <div class="title-table">
+                                    <h1>Level 1 (a)</h1>
+                                    <div class="icon-edit__title">
+                                        <img src="img/icons/edit-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <th class="table-number">№</th>
+                                        <th class="table-name">Ім’я учня</th>
+                                        <th class="table-nameLat">Ім’я латиницею</th>
+                                        <th class="table-date">Дата народження</th>
+                                        <th class="table-age">Вік</th>
+                                        <th class="table-address">Адреса</th>
+                                        <th class="table-school">Навчальний заклад</th>
+                                        <th class="table-phone">Телефон</th>
+                                        <th class="table-button"></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">1</td>
+                                        <td class="table-name">Боднарчук С.</td>
+                                        <td class="table-nameLat">Bodnarchuk Svyatoslav</td>
+                                        <td class="table-date">10.02.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">2</td>
+                                        <td class="table-name">Волошин І.</td>
+                                        <td class="table-nameLat">Voloshin Irina</td>
+                                        <td class="table-date">02.11.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">3</td>
+                                        <td class="table-name">Король В.</td>
+                                        <td class="table-nameLat">Korol Veronika</td>
+                                        <td class="table-date">07.07.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">4</td>
+                                        <td class="table-name">Омонов С.</td>
+                                        <td class="table-nameLat">Omonov Sergiy</td>
+                                        <td class="table-date">12.01.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">5</td>
+                                        <td class="table-name">Юрків Х.</td>
+                                        <td class="table-nameLat">Urkiv Christina</td>
+                                        <td class="table-date">07.07.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">6</td>
+                                        <td class="table-name">Хамотов Ю.</td>
+                                        <td class="table-nameLat">Hamotov Uriy</td>
+                                        <td class="table-date">04.08.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                            <div class="wrapper-table">
+                                <div class="title-table">
+                                    <h1>Level 1 (b)</h1>
+                                    <div class="icon-edit__title">
+                                        <img src="img/icons/edit-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <th class="table-number">№</th>
+                                        <th class="table-name">Ім’я учня</th>
+                                        <th class="table-nameLat">Ім’я латиницею</th>
+                                        <th class="table-date">Дата народження</th>
+                                        <th class="table-age">Вік</th>
+                                        <th class="table-address">Адреса</th>
+                                        <th class="table-school">Навчальний заклад</th>
+                                        <th class="table-phone">Телефон</th>
+                                        <th class="table-button"></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">1</td>
+                                        <td class="table-name">Боднарчук С.</td>
+                                        <td class="table-nameLat">Bodnarchuk Svyatoslav</td>
+                                        <td class="table-date">10.02.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">2</td>
+                                        <td class="table-name">Волошин І.</td>
+                                        <td class="table-nameLat">Voloshin Irina</td>
+                                        <td class="table-date">02.11.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">3</td>
+                                        <td class="table-name">Король В.</td>
+                                        <td class="table-nameLat">Korol Veronika</td>
+                                        <td class="table-date">07.07.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">4</td>
+                                        <td class="table-name">Омонов С.</td>
+                                        <td class="table-nameLat">Omonov Sergiy</td>
+                                        <td class="table-date">12.01.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">5</td>
+                                        <td class="table-name">Юрків Х.</td>
+                                        <td class="table-nameLat">Urkiv Christina</td>
+                                        <td class="table-date">07.07.2010р.</td>
+                                        <td class="table-age">8</td>
+                                        <td class="table-address">м. Івано-Франківськ, вул. Довга 34, б.21</td>
+                                        <td class="table-school">Дитячий садок “Сонечно”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-number">6</td>
+                                        <td class="table-name">Хамотов Ю.</td>
+                                        <td class="table-nameLat">Hamotov Uriy</td>
+                                        <td class="table-date">04.08.2011р.</td>
+                                        <td class="table-age">7</td>
+                                        <td class="table-address">м. Калуш, вул. Панаса Мирного 2, б.9</td>
+                                        <td class="table-school">Дитячий садок “Веселка”</td>
+                                        <td class="table-phone">
+                                            <p>Батько: <span>+38 (066) 892-12-15</span></p>
+                                            <p>Мама: <span>+38 (095) 321-22-96</span></p>
+                                        </td>
+                                        <td class="table-button" style="padding: 0; background-color: #fff;">
+                                            <div class="btn-table">
+                                                <img src="img/icons/edit.svg" alt="">
+                                            </div>
+                                            <div class="btn-table">
+                                                <img src="img/icons/delete-button.svg" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main-js.js"></script>
+</body>
+
+</html>

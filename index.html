@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunrise</title>
+    <link rel="shortcut icon" href="img/index/favicon.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style jquery-ui -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/main-style.css">
+</head>
+
+<body>
+    <main>
+        <div class="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-info d-flex">
+                            <a href="dashboard.html" class="logo">
+                                <img src="img/index/logo.png" alt="Sunrise">
+                            </a>
+                            <div class="information d-flex">
+                                <div class="info-title">
+                                    <h1>Sunrise English School</h1>
+                                    <p>Школа англійської мови для дітей.<br> Центр по підготовці до Кембриджських екзаменів</p>
+                                    <div class="info-img">
+                                        <img src="img/index/logo-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="info-address">
+                                    <p>м. Івано-Франківськ,<br> вул. Шевченка 11</p>
+                                </div>
+                                <div class="info-phone">
+                                    <a href="tel: +38 (066) 782-11-11">+38 (066) 782-11-11</a><br>
+                                    <a href="#" data-toggle="modal" data-target="#adviceModalWindowCenter">Замовити консультацію</a>
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="adviceModalWindowCenter" tabindex="-1" role="dialog" aria-labelledby="adviceModalWindowCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="adviceModalWindowCenterTitle">Заповніть дані, і ми вам зателефонуємо</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="input-form">
+                                                            <label>Ваше ім’я</label>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-form">
+                                                            <label>Номер телефону</label>
+                                                            <input type="text">
+                                                        </div>
+                                                <div class="checkbox d-flex">
+                                                    <label class="label-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                    <p>Натискаючи кнопку «Відправити» я приймаю умови Користувацької угоди та даю згоду на обробку моїх особистих даних</p>
+                                                </div>
+                                                <div class="modal-girl">
+                                                    <img src="img/index/girl-2.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-red">Відправити</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content d-flex">
+                            <div class="content-desc">
+                                <h1 class="content-desc__title">
+                                    Запрошуємо на навчання дітей віком від 3-х до 17-ти років
+                                    <div class="hat">
+                                        <img src="img/index/hat.svg" alt="">
+                                    </div>
+                                </h1>
+                                <div class="content-desc__list">
+                                    Наша школа пропонує:
+                                    <ul>
+                                        <li>дошкільне навчання, де діти отримають базовий курс англійської мови та перші
+                                            академічні навички читання та письма;</li>
+                                        <li>початкова та середня школа від рівня Level 1 до Level 6, де діти проходять основний
+                                            курс англійської мови, розвиваючи всі ключові навички (читання, аудіювання, письма
+                                            та спілкування);</li>
+                                        <li>розмовна англійська з носіями мови для дітей і дорослих;</li>
+                                        <li>для підлітків навчання в клубах;</li>
+                                        <li>підготовка до Кембриджських екзаменів YLE (Starters, Movers, Flyers), Key for
+                                            Schools, Preliminary for Schools, First for Schools та ЗНО;</li>
+                                        <li>літні англомовні табори за кордоном;</li>
+                                    </ul>
+                                    <div class="arrow-down">
+                                        <img src="img/index/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrap-form">
+                                <!-- крок перший -->
+                                <div id="step1" class="content-form">
+                                    <h2 class="content-form__title">
+                                        Заповніть анкету, щоб отримати наші нові курси англійської мови
+                                    </h2>
+                                    <form action="">
+                                        <div class="input-form">
+                                            <label>Ім’я учня</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="input-form">
+                                            <label>Фамілія учня</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="input-form">
+                                            <label>Ім’я та фамілія учня в міжнародному <span>форматі (латиницею)</span></label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="select-style">
+                                            <input type="text" id="datepicker" placeholder="Дата народження">
+                                        </div>
+                                        <div class="select-style">
+                                            <select name="" id="">
+                                                <option value="">Навчальний заклад</option>
+                                                <option value="">2002</option>
+                                                <option value="">2003</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-style">
+                                            <select name="" id="">
+                                                <option value="">Ваш рівень</option>
+                                                <option value="">Level 0a</option>
+                                                <option value="">Level 0b</option>
+                                                <option value="">Level 0c</option>
+                                                <option value="">Level 1</option>
+                                                <option value="">Level 2</option>
+                                                <option value="">Level 3</option>
+                                                <option value="">Level 4</option>
+                                                <option value="">Level 5</option>
+                                                <option value="">Level 6</option>
+                                            </select>
+                                        </div>
+                                        <button type="button" class="btn-form">Наступний крок</button>
+                                    </form>
+                                </div>
+                                <!-- крок другий -->
+                                <div id="step2" class="content-form">
+                                    <div id="backStep1" class="arrows-left">
+                                        <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                                    </div>
+                                    <h2 class="content-form__title">
+                                        Якщо ви вже навчаєтесь в Sunrise English School, заповніть анкету
+                                    </h2>
+                                    <form action="">
+                                        <div class="input-form">
+                                            <label>Адреса</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="group-input d-flex">
+                                            <div class="input-form">
+                                                <label>Батько</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="input-form">
+                                                <label>Мама</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                        <div class="group-input d-flex">
+                                            <div class="input-form">
+                                                <label>Контактний телефон</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="input-form">
+                                                <label>Контактний телефон</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                        <div class="group-input d-flex">
+                                            <div class="input-form">
+                                                <label>E-mail</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="input-form">
+                                                <label>E-mail</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                        <div class="checkbox d-flex">
+                                            <label class="label-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <p>Натискаючи кнопку «Надіслати заявку» я приймаю умови Користувацької угоди
+                                                та даю згоду на обробку моїх особистих даних</p>
+                                        </div>
+                                        <button type="button" class="btn-form">Надіслати заявку</button>
+                                    </form>
+                                </div>
+                                <!-- крок третій -->
+                                <div id="step3" class="content-form">
+                                    <div id="backStep2" class="arrows-left">
+                                        <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                                    </div>
+                                    <h2 class="content-form__title">
+                                        Готово! Ваша заявка успішно відправлена.
+                                    </h2>
+                                    <div class="form-send">
+                                        <p>Очікуйте відповідь від нашого менеджера, на почтову скриньку, яку ви вказали при
+                                            заповненні анкети.</p>
+                                        <p>Якщо у вас виникли будь-які питання, ми завжди раді відповісти
+                                            на них по телефону:</p>
+                                        <a href="tel: +38 (066) 782-11-11">+38 (066) 782-11-11</a>
+                                        
+                                        <p><small>Також по телефону ви можете дізнатись по наші акційні пропозиції. Даємо гарантію, що ми зможемо підібрати вашій малечі ту програму, при якій вивчення англійскої мови стане його хоббі!</small></p>
+                                    </div>
+                                    <button type="submit" class="btn-form">Надіслати заявку</button>
+                                </div>
+                                <div class="girl">
+                                    <img src="img/index/girl.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="cars">
+                <div class="call-box">
+                    <img src="img/index/call-box.png" alt="">
+                </div>
+                <div class="car-red">
+                    <img src="img/index/car-red.png" alt="">
+                </div>
+                <div class="car-black">
+                    <img src="img/index/car-black.png" alt="">
+                </div>
+                <div class="bus">
+                    <img src="img/index/bus.png" alt="">
+                </div>
+            </div>
+    
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main-js.js"></script>
+</body>
+
+</html>
